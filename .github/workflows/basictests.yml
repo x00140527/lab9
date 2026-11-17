@@ -27,7 +27,7 @@ jobs:
 
       - name: Test long name
         run: |
-          result=$(bash validate-data.sh "Chicochiocicocihoh" "123123")
+          result=$(bash validate-data.sh "Chihihihihihicochiocicocihoh" "123123")
           echo "$result"
           test "$result" = "FAIL"
 
