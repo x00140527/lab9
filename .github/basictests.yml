@@ -1,0 +1,37 @@
+
+name: Basic Tests
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  lab9-basic-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Make validation script executable
+        run: chmod +x validate-data.sh
+
+      - name: Test valid name and mobile
+        run: |
+          result=$(./validate-data.sh chico 123123123)
+          echo "$result"
+          test "$result" = "PASS"
+
+      - name: Test long name
+        run: |
+          result=$(./validate-data.sh Chicochiochiochico 1233123)
+          echo "$result"
+          test "$result" = "FAIL"
+
+      - name: Test long mobile number
+        run: |
+          result=$(./validate-data.sh chico 123123123321)
+          echo "$result"
+          test "$result" = "FAIL"
