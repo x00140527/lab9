@@ -20,18 +20,18 @@ jobs:
 
       - name: Test valid name and mobile
         run: |
-          result=$(./validate-data.sh chico 1231231231)
+          result=$( bash validate-data.sh "chico" "123123123"
           echo "$result"
           test "$result" = "PASS"
 
       - name: Test long name
         run: |
-          result=$(./validate-data.sh Chicochiocicocihoh 123123)
+          result=$(bash validate-data.sh "Chicochiocicocihoh" "123123")
           echo "$result"
           test "$result" = "FAIL"
 
       - name: Test long mobile number
         run: |
-          result=$(./validate-data.sh chico 1234123123123)
+          result=$(bash validate-data.sh "chico" "1234123123123")
           echo "$result"
           test "$result" = "FAIL"
