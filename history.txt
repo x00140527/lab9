@@ -1,0 +1,689 @@
+    1  git status
+    2  git add count10.sh
+    3  git commit -m "fix count10 output"
+    4  git push origin main
+    5  gh auth status
+    6  gh auth login
+    7  git push origin main
+    8  git auth status
+    9  git remote -v
+   10  git status
+   11  git branch
+   12  git add
+   13  git add .
+   14  git push origin main
+   15  git status
+   16  git commit -m "add count scripts"
+   17  git push origin main
+   18  git switch -c fix-count10
+   19  git push -u origin fix-count10
+   20  git switch -d fix-count10
+   21  git switch main
+   22  ls
+   23  git branch
+   24  git branch -d fix-count10
+   25  git branch
+   26  gh repo view x00140527/devopsProj --json name,owner,viewerPermission
+   27  gh auth setup-git
+   28  git remote -v
+   29  git push origin main
+   30  gh auth status
+   31  gh api repos/x00140527/devopsProj --jq '.permissions'
+   32  git config --show-origin --get-all credential.helper
+   33  git push origin main
+   34  gh api repos/x00140527/devopsProj/branches/main/protection
+   35  git commit -m "fix count10.sh fixes #24"
+   36  git branch
+   37  git push origin main
+   38  cd ..
+   39  rm -rf devopsProj
+   40  ls
+   41  cd devops
+   42  ls
+   43  cd week4
+   44  ls
+   45  git clone https://github.com/x00140527/devopsProj.git
+   46  echo 'echo 1
+   47  bash count1.sh' > count1.sh
+   48  echo 'echo 2
+   49  bash count2.sh' > count2.sh
+   50  echo 'echo 3
+   51  bash count3.sh' > count3.sh
+   52  echo 'echo 4
+   53  bash count4.sh' > count4.sh
+   54  echo 'echo 5
+   55  bash count5.sh' > count5.sh
+   56  echo 'echo 6
+   57  bash count6.sh' > count6.sh
+   58  echo 'echo 7
+   59  bash count7.sh' > count7.sh
+   60  echo 'echo 8
+   61  bash count8.sh' > count8.sh
+   62  echo 'echo 9
+   63  bash count9.sh' > count9.sh
+   64  echo 'echo 10' > count10.sh
+   65  bash count1.sh
+   66  l
+   67  clear
+   68  ls
+   69  rm *count*
+   70  cd devopsProj
+   71  ls
+   72  echo 'echo 1
+   73  bash count1.sh' > count1.sh
+   74  ls
+   75  rm *count*
+   76  echo 'echo 1
+   77  bash count2.sh' > count1.sh
+   78  echo 'echo 2
+   79  bash count3.sh' > count2.sh
+   80  echo 'echo 3
+   81  bash count4.sh' > count3.sh
+   82  echo 'echo 4
+   83  bash count5.sh' > count4.sh
+   84  echo 'echo 5
+   85  bash count6.sh' > count5.sh
+   86  echo 'echo 6
+   87  bash count7.sh' > count6.sh
+   88  echo 'echo 7
+   89  bash count8.sh' > count7.sh
+   90  echo 'echo 8
+   91  bash count9.sh' > count8.sh
+   92  echo 'echo 9
+   93  bash count10.sh' > count9.sh
+   94  echo 'echo 10
+   95  bash count11.sh' > count10.sh
+   96  rm *count*
+   97  echo 'echo 1
+   98  bash count2.sh' > count1.sh
+   99  echo 'echo 2
+  100  bash count3.sh' > count2.sh
+  101  echo 'echo 3
+  102  bash count4.sh' > count3.sh
+  103  echo 'echo 4
+  104  bash count5.sh' > count4.sh
+  105  echo 'echo 5
+  106  bash count6.sh' > count5.sh
+  107  echo 'echo 6
+  108  bash count7.sh' > count6.sh
+  109  echo 'echo 7
+  110  bash count8.sh' > count7.sh
+  111  echo 'echo 8
+  112  bash count9.sh' > count8.sh
+  113  echo 'echo 9
+  114  bash count10.sh' > count9.sh
+  115  echo 'echo 10' > count10.sh
+  116  bash count1.sh
+  117  git status
+  118  git init
+  119  git add .
+  120  git commit -m "add count scripts"
+  121  git branch 0M main
+  122  git push -u origin main
+  123  git branch -M main
+  124  git remote add origin https://github.com/x00140527/devopsProj.git
+  125  git push -u origin main
+  126  git remote -v
+  127  gh auth status
+  128  gh auth login
+  129  git branch
+  130  git branch -d 0M
+  131  git branch --show-current
+  132  git config --get credential.helper
+  133  git remote -v
+  134  git push -u origin main
+  135  ls
+  136  cd devops
+  137  ls
+  138  git clone https://github.com/pearse1104/x00140527.git
+  139  git push origin main
+  140  git branch
+  141  git config --get user.name
+  142  git config --get user.email
+  143  ls -la ~/.ssh
+  144  ssh-keygen -t ed25519 -C "x00140527@gmail.com"
+  145  eval "$(ssh-agent -s)"
+  146  cat ~/.ssh/id_ed25519.pub
+  147  ssh -T git@github.com
+  148  ls
+  149  cd devops
+  150  ls
+  151  cd week4
+  152  ls
+  153  cd ..
+  154  git remote -v
+  155  mkdir CA1
+  156  cd CA1
+  157  git clone git@github.com:pearse1104/x00140527.git
+  158  git remote -v
+  159  ls
+  160  cd x00140527
+  161  git remote -0v
+  162  git remote -v
+  163  git status
+  164  echo "this is a test file" > test.txt
+  165  ls
+  166  cat test.txt
+  167  git add test.txt
+  168  git commit -m "test file"
+  169  git branch --show-current
+  170  git push -u origin HEAD
+  171  ls
+  172  cd devops
+  173  ls
+  174  cd week4
+  175  ls
+  176  cd ..
+  177  cd CA1
+  178  ls
+  179  cd
+  180  ls
+  181  cd devops
+  182  ls
+  183  cd week4
+  184  cd
+  185  cd week4
+  186  cd /devops/week4
+  187  cd ~/devops/week4
+  188  ls
+  189  cd devopsProj
+  190  ls
+  191  cd ..
+  192  rm -rf devopsProj
+  193  ls
+  194  cd..
+  195  cd ..
+  196  ls
+  197  cd week4
+  198  ls
+  199  git clone git@github.com:x00140527/devopsProj.git~
+  200  git clone git@github.com:x00140527/devopsProj.git
+  201  ls
+  202  cd devopsProj
+  203  ls
+  204  ls -la
+  205  cd ..
+  206  bash count1.sh
+  207  cd devopsProj
+  208  git remote -v
+  209  pwd
+  210  for i in {1..10}; do     file="count${i}.sh";      echo "echo $i" >> "$file";      if [ "$i" -lt 10 ]; then         echo "./count$((i+1)).sh" >> "$file";     fi;      chmod +x "$file"; done
+  211  ls
+  212  bash count1.sh
+  213  ./count1.sh
+  214  git add .
+  215  git commit -m "add ten linked count scripts"
+  216  git push origin main
+  217  git switch
+  218  git branch
+  219  git switch -c bugs
+  220  sed -i 's/^echo 1$/echo ONE/' count1.sh
+  221  ./count1.sh
+  222  git add count1.sh
+  223  git commit -m "fix 1 to one"
+  224  git push -u origin bugs
+  225  git switch main
+  226  git pull origin main
+  227  git switch -c bugs2
+  228  sed -i 's/^echo 2$/echo TWO/' count2.sh
+  229  git add count2.sh
+  230  git commit -m "fix 2 to TWO"
+  231  git push -u origin bugs2
+  232  git switch main
+  233  git pull origin main
+  234  git switch -c bugs3
+  235  sed -i 's/^echo 3$/echo THREE/' count3.sh
+  236  git add count3.sh
+  237  git commit -m "3 to THREE"
+  238  git push -u origin bugs3
+  239  git switch main
+  240  git pull origin main
+  241  git switch -c bugs4
+  242  sed -i 's/^echo 4$/echo FOUR/' count4.sh
+  243  git add count4.sh
+  244  git commit -m "4 to FOUR"
+  245  git push -u origin bugs4
+  246  git switch main
+  247  git pull origin main
+  248  git switch -c bugs5
+  249  sed -i 's/^echo 5$/echo FIVE/' count5.sh
+  250  git add count5.sh
+  251  git commit -m "5 to FIVE"
+  252  git push -u origin bugs5
+  253  git switch main
+  254  git pull origin main
+  255  git switch -c bugs6
+  256  sed -i 's/^echo 6$/echo SIX/' count6.sh
+  257  git add count6.sh
+  258  git commit -m "6 to SIX"
+  259  git push -u origin bugs6
+  260  git switch main
+  261  git pull origin main
+  262  git switch -c bugs7
+  263  sed -i 's/^echo 7$/echo SEVEN/' count7.sh
+  264  git add count7.sh
+  265  git commit -m "7 to SEVEN"
+  266  git push -u origin bugs7
+  267  git switch main
+  268  git pull origin main
+  269  git switch -c bugs8
+  270  sed -i 's/^echo 8$/echo EIGHT/' count8.sh
+  271  git add count8.sh
+  272  git commit -m "8 to EIGHT"
+  273  git push -u origin bugs8
+  274  git switch main
+  275  git pull origin main
+  276  git switch -c bugs9
+  277  sed -i 's/^echo 9$/echo NINE/' count9.sh
+  278  git add count9.sh
+  279  git commit -m "9 to NINE"
+  280  git push -u origin bugs9
+  281  git switch main
+  282  git pull origin main
+  283  git switch -c bugs10
+  284  sed -i 's/^echo 10$/echo TEN/' count10.sh
+  285  git add count10.sh
+  286  git commit -m "10 to TEN"
+  287  git push -u origin bugs10
+  288  git switch main
+  289  git pull origin main
+  290  ./count1.sh
+  291  nano count2.sh
+  292  cd
+  293  cd ~/devops
+  294  mkdir week5
+  295  cd week5
+  296  git clone git@github.com:x00140527/devopsProj.git
+  297  ls
+  298  cd devopsProj
+  299  cd ..
+  300  rm -rf devopsProj
+  301  mkdir v1
+  302  ls
+  303  cd v1
+  304  git clone git@github.com:x00140527/devopsProj.git
+  305  cd devopsProj
+  306  git switch -c onev1
+  307  git switch main
+  308  ls
+  309  cd ..
+  310  mkdir v2
+  311  ls
+  312  cd v2
+  313  cd ..
+  314  cd v1
+  315  ls
+  316  cd devopsProj
+  317  git branch
+  318  git switch onev1
+  319  cd ~/v2
+  320  cd ~/devops/week5/v2
+  321  ls
+  322  git clone git@github.com:x00140527/devopsProj.git
+  323  ls
+  324  cd devopsProj
+  325  git switch -c onev2
+  326  cd ~/devops/week5/v1/devopsProj
+  327  nano count1.sh
+  328  bash count1.sh
+  329  echo count1.sh
+  330  cat count1.sh
+  331  git add count1.sh
+  332  git commit -m "change to ONE(1)"
+  333  git push -u origin onev1
+  334  cd ~/devops/week5/v2/devopsProj
+  335  nano count1.sh
+  336  git add count1.sh
+  337  git commit -m "change to 1(ONE)"
+  338  git push -u origin onev2
+  339  cd ~/devops/week5
+  340  mkdir mergeTest
+  341  cd mergeTest
+  342  git clone git@github.com:x00140527/devopsProj.git
+  343  ls
+  344  cd devopsProj
+  345  git fetch origin
+  346  git switch main
+  347  git pull origin main
+  348  git merge origin/onev1
+  349  nano count1.sh
+  350  git branch
+  351  git status
+  352  git log --oneline -5
+  353  git fetch origin
+  354  git merge origin/onev2
+  355  git branch
+  356  git merge origin/onev1
+  357  git branch -r
+  358  git log --oneline origin -3
+  359  git log --oneline origin/main
+  360  git merge origin/onev2
+  361  git log --oneline origin/main
+  362  git branch -r
+  363  git fetch --all
+  364  git branch -r
+  365  nano count1.sh
+  366  git push origin main
+  367  nano count2.sh
+  368  nano count1.sh
+  369  git add count1.sh
+  370  git commit -m "resolve count1 merge conflict keeping onev1"
+  371  git push origin main
+  372  cd ~/devops/week5
+  373  ls
+  374  mkdir v1-2
+  375  cd v1-2
+  376  git clone git@github.com:x00140527/devopsProj.git
+  377  cd devopsProj
+  378  git switch -c two-v1
+  379  nano count2.sh
+  380  git count2.sh
+  381  git add count2.sh
+  382  git commit -m "change count2 to TWO(2)"
+  383  git push -u origin two-v1
+  384  mkdir ~/devops/week5/v2-2
+  385  cd ~/devops/week5/v2-2
+  386  git clone git@github.com:x00140527/devopsProj.git
+  387  cd devopsProj
+  388  git switch -c two-v2
+  389  nano count2.sh
+  390  git add count2.sh
+  391  git commit -m "change count2 to 2(TWO)"
+  392  git push -u origin two-v2
+  393  cd ~/devops/week5/mergeTest
+  394  git branch
+  395  cd devopsProj
+  396  git branch
+  397  git pull origin main
+  398  ./count1.sh
+  399  cd
+  400  ls
+  401  cd devops
+  402  ls
+  403  cd ca1
+  404  cd CA1
+  405  ls
+  406  cd x00140527
+  407  ls
+  408  gh repo list
+  409  ~ls
+  410  ls
+  411  ls -la
+  412  ls
+  413  clear
+  414  cd devops
+  415  ;ls
+  416  ls
+  417  cd CA1
+  418  ls
+  419  cd x00140527
+  420  ssh-keygen -lf ~/.ssh/id_ed25519.pub
+  421  ls
+  422  cd devops
+  423  git clone git@github.com:pearse1104/CA1-MONDAY.git
+  424  ls
+  425  cd CA1
+  426  git clone git@github.com:pearse1104/CA1-MONDAY.git
+  427  ls
+  428  cd CA1-MONDAY
+  429  ls
+  430  bash runme.txt
+  431  ls
+  432  cat me.txt
+  433  cd ..
+  434  mkdir devopsCA1
+  435  cd CA1-MONDAY
+  436  ls
+  437  cd ..
+  438  ls
+  439  rm devopsCA1
+  440  rmdir devopsCA1
+  441  git clone git@github.com:x00140527/devopsCA1.git
+  442  mv me.txt > devopsCA1.git
+  443  mv help
+  444  mv --help
+  445  mv 'me.txt' > devopsCA1.git
+  446  ls
+  447  cd CA1-MONDAY
+  448  ls
+  449  mv me.txt > ~/devops/CA1/CA1-MONDAY
+  450  ls
+  451  mv me.txt > ~/devops/CA1/devopsCA1
+  452  ls
+  453  git add .
+  454  git branch
+  455  cp me.txt > ~/devops/CA1/devopsCA1
+  456  cd ..
+  457  ls
+  458  devopsCA1
+  459  ls
+  460  cd devopsCA1
+  461  ls
+  462  cd ..
+  463  mv --help
+  464  ls
+  465  cd CA1-MONDAY
+  466  ls
+  467  mv me.txt > devopsCA1
+  468  mv me.txt > ~/devops/CA1/devopsCA1
+  469  cp me.txt > ~/devops/CA1/devopsCA1
+  470  ls
+  471  git add me.txt
+  472  git add runme.txt
+  473  git commit -m "commits"
+  474  git push devopsCA1.git main
+  475  ls
+  476  cd devopsCA1
+  477  ls
+  478  cd ..
+  479  ls
+  480  cd devopsCA1
+  481  ls
+  482  cd ..
+  483  cd CA1-MONDAY
+  484  git remote add origin git@github.com:x00140527/devopsCA1.git
+  485  git push devopsCA1 main
+  486  git push git@github.com:x00140527/devopsCA1.git main
+  487  cd ..
+  488  git clone git@github.com:pearse1104/x00140527.git
+  489  ls
+  490  x00140527
+  491  cd x00140527
+  492  gh project create --owner x00140527 --title "myCA1proj"
+  493  gh api users/OWNER --jq '.node_id'
+  494  gh project create --owner OWNER --title "myCA1proj
+  495  gh project create --owner OWNER --title "myCA1proj"
+  496  git switch -c ca1branch
+  497  git add ca1branch
+  498  gh repo view
+  499  gh project create --owner pearse1104 --title "myCA1proj"
+  500  gh project create --owner x00140527 --title "myCA1proj"
+  501  gh --version
+  502  gh auth login
+  503  gh auth status
+  504  gh repo create lab9 --public -add-readme --description "lab 9 repo"
+  505  gh repo create lab9 --public --add-readme --description "lab 9 repo"
+  506  gh auth logout
+  507  gh auth login
+  508  gh repo create lab9 --public --add-readme --description "lab 9 repo"
+  509  gh auth login
+  510  gh repo create lab9 --public --add-readme --description "lab 9 repo"
+  511  gh repo view lab9 --web
+  512  bash validate-data.sh "chico zsho" "0962734"
+  513  ls
+  514  cd devops
+  515  ls
+  516  mkdir week9
+  517  ls
+  518  cd week9
+  519  ls
+  520  git clone git@github.com:x00140527/lab9.git
+  521  ls
+  522  cd lab9
+  523  bash validate-data.sh "chico zsho" "912382"
+  524  ls
+  525  git pull
+  526  ls
+  527  nano validate-data.sh
+  528  bash validate-data.sh "chico zsho" "0123123"
+  529  bash validate-data.sh "chicccccco zsho" "0123121231233"
+  530  bash validate-data.sh "chicccccco zsho" "0312123"
+  531  bash validate-data.sh "chicccccccccccco zsho" "0312123"
+  532  bash validate-data.sh "chiccco zsho" "032323232323312123"
+  533  mkdir .github
+  534  cd .github
+  535  mkdir workflows
+  536  cd workflows
+  537  nano basictests.yml
+  538  ls
+  539  git add validate-data.sh .github/workflows/basictests.yml
+  540  git add validate-data.sh
+  541  git add basictests.yml
+  542  git commit -m "github action tests"
+  543  git push
+  544  cd ..
+  545  ls
+  546  git add validate-data.sh
+  547  git commit -m "validation"
+  548  git push
+  549  chmod +x validate-data.sh
+  550  git push
+  551  nano validate-data.sh
+  552  ls
+  553  ls -la
+  554  chmod +x validate-data.sh
+  555  git add validate-data.sh
+  556  git commit -m "validate data script"
+  557  git push
+  558  ls
+  559  ls -l
+  560  ls -la
+  561  ls -l .github/workflows
+  562  cd .github/workflows
+  563  ls
+  564  nano basictests.yml
+  565  git status
+  566  git add basictests.yml
+  567  git commit -m "tests updated"
+  568  git push
+  569  cd ..
+  570  cd..
+  571  cd ..
+  572  find . -name "validate-data.sh"
+  573  git status
+  574  git ls-files validate-data.sh
+  575  git status
+  576  git ls-files validate-data.sh
+  577  git remote -v
+  578  nano .github/workflows/basictests.yml
+  579  git add .github/workflows/basictests.yml
+  580  git commit -m "update tests"
+  581  git push
+  582  nano .github/workflows/basictests.yml
+  583  git add .github/workflows/basictests.yml
+  584  git commit -m "added file diagnostic"
+  585  git push
+  586  cat > validate-data.sh << 'EOF'
+  587  cat > validate-data.sh <<'EOF'
+#!/bin/bash
+
+name="$1"
+mobile="$2"
+
+if [ "$#" -eq 2 ] && [ ${#name} -le 15 ] && [ ${#mobile} -le 10 ]; then
+    echo "PASS"
+else
+    echo "FAIL"
+fi
+EOF
+
+  588  ls -l validate.data.sh
+  589  ls -l validate-data.sh
+  590  chmod +x validate-data.sh
+  591  git add -f validate-data.sh
+  592  git commit -m "add validation"
+  593  git push
+  594  clear
+  595  cd
+  596  ls
+  597  cd devops
+  598  ls
+  599  cd week9
+  600  gh auth status
+  601  gh repo create lab9 --public --add-readme --description "lab 9 repo"
+  602  gh repo view lab9 --json name, visibility, url
+  603  gh repo view lab9 --json name,visibility,url
+  604  git clone git@github.com:x00140527/lab9.git
+  605  ls
+  606  cd lab9
+  607  ls
+  608  cd ..
+  609  rm -f lab9
+  610  rm -rf lab9
+  611  git clone git@github.com:x00140527/lab9.git
+  612  ls
+  613  cd lab9
+  614  ls
+  615  nano validate-data.sh
+  616  ls
+  617  bash validate-data.sh "chico zsho" "12312312"
+  618  chmod +x validate-data.sh
+  619  ./validate-data.sh chico 123123123
+  620  git add validate-data.sh
+  621  git commit -m "validate script"
+  622  git push
+  623  gh repo view "$REPO" --web
+  624  ls
+  625  mkdir .github/workflows
+  626  mkdir .github
+  627  cd .github
+  628  mkdir workflows
+  629  nano basictests.yml
+  630  git add .
+  631  git commit -m "add basic action tests"
+  632  git push
+  633  ls
+  634  rm -rf basictests.yml
+  635  ls
+  636  cd workflows
+  637  nano basictests.yml
+  638  git add .
+  639  git commit -m "add action tests"
+  640  git push
+  641  ls -la .github/workflows
+  642  git status
+  643  git add -u
+  644  git commit -m "deleted yml from github folder"
+  645  git push
+  646  ls
+  647  nano basictests.yml
+  648  git add .
+  649  git commit -m "updated"
+  650  git push 
+  651  nano basictests.yml
+  652  git add .
+  653  git commit -m "updated"
+  654  git push 
+  655  nano basictests.yml
+  656  git add .
+  657  git commit -m "updated"
+  658  git push 
+  659  nano basictests.yml
+  660  git add .
+  661  git commit -m "updated 2"
+  662  git push 
+  663  cd ..
+  664  git branch
+  665  git switch -c test
+  666  ls
+  667  nano validate-data.sh
+  668  ls
+  669  nano .github/workflows/basictests.yml
+  670  git add .
+  671  git commit -m "updated validation"
+  672  git push -u origin test
+  673  nano .github/workflows/basictests.yml
+  674  git add .
+  675  git commit -m "fix tests for 20 character"
+  676  git push 
+  677  history>history.txt
