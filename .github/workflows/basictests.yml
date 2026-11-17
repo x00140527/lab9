@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - test
   workflow_dispatch:
 
 jobs:
@@ -20,7 +21,7 @@ jobs:
 
       - name: Test valid name and mobile
         run: |
-          result=$(bash validate-data.sh "chico" "123123123")
+          result=$(bash validate-data.sh "chicooooooooooo" "123123123")
           echo "$result"
           test "$result" = "PASS"
 
